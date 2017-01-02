@@ -8,14 +8,14 @@ The setup script is a simple bash shell script (no chef/puppet/etc). I wanted a 
 
 Running `vagrant up` will download and install:
 
-* Ubuntu 12.04 LTS (Base Box) `precise64 http://files.vagrantup.com/precise64.box`
+* Ubuntu 16.04 LTS (Base Box) 
 
-* [Oracle Java](http://www.java.com/) JRE `1.7.0u45`
-> By downloading Java you acknowledge that you have read and accepted the terms of the [end user license agreement](http://www.oracle.com/technetwork/java/javase/terms/license/)
+* [OpenJDK Java](http://www.openjdk.java.net/) JRE 
 
-* [Neo4j](http://www.neo4j.org/) Community Edition `2.2.5`
+
+* [Neo4j](http://www.neo4j.org/)  `3.1.0`
 > (A)GPLv3 License<br>
-> Port 7474 is forwarded from the host to the guest for accessing Neo4j from the host machine.
+> Port 7474, 7687  is forwarded from the host to the guest for accessing Neo4j from the host machine.
 
 ## Requirements
 
